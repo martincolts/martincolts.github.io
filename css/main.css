@@ -77,7 +77,7 @@
 
 .info-text {
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .info-grid-container {
@@ -88,12 +88,14 @@
 @media (max-width: 1200px) {
     .info-container {
         margin-left: 0%;
+        flex-direction: column;
     }
 }
 
 @media (min-width: 1200px) {
     .info-container {
         margin-left: 41%;
+        flex-direction: row;
     }
 }
 
@@ -101,7 +103,6 @@
 .info-container {
     margin-top: 10px;
     display: flex;
-    flex-direction: row;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 10px
 }
